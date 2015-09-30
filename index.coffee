@@ -61,7 +61,7 @@ products= [
 
   {
     title: 'npm.berabou.me'
-    uri: 'https://npm.berabou.me'
+    uri: 'http://npm.berabou.me'
     description: [
       'npmjsに公開したパッケージのダウンロード数の統計をユーザーごとに確認できるエゴサーチWEBサイトです。'
       'かなり重い'

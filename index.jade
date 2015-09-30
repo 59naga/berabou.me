@@ -1,0 +1,51 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    title DifficultHTTPServer
+
+    link(href="http://static.edgy.black/pixel_mplus12.css")
+
+    script(src="pkgs.js")
+    script(src="index.js")
+    link(href="index.css" rel="stylesheet")
+
+    script(id="rootTemplate" type="text/ng-template")
+      .index
+        header
+          h1 berabou.me
+
+        ul
+          li(ng-repeat="product in products")
+            section
+              figure
+                a(ng-href="{{product.ss}}")
+                  img(ng-src="{{product.ss}}" alt="{{product.title}}")
+
+              figcaption
+                a(href="{{product.uri}}")
+                  h2 {{product.title}}
+                  p(ng-repeat="p in product.description track by $index") {{p}}
+
+            aside(ng-show="product.repo")
+              nav
+                a(ng-href="{{product.repo}}") github repo
+
+          li
+            section
+              figure
+
+              figcaption
+                a(href="https://www.npmjs.com/~59naga")
+                  h2 etc...
+                  p <del>玉</del>岩石混淆の開発したライブラリ群です
+
+        footer
+          a(href="https://twitter.com/horse_n_deer") twitter
+          a(href="https://github.com/59naga/") github
+          a(href="#")
+            img(alt="59naga" src="https://pbs.twimg.com/profile_images/485123473904132096/PpdblyWm.png")
+
+  body
+    main(ui-view)
+    

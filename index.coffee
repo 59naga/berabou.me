@@ -40,6 +40,17 @@ products= [
   }
 
   {
+    title: 'vpd.berabou.me'
+    uri: 'http://vpd.berabou.me/'
+    description: [
+      'MikuMikuDanceのVMD/VPDのオンライン・ビューアーです。'
+      '画面上にvmd/vpdファイルをドラッグ＆ドロップすることで、即次にプレビューすることが出来ます。'
+    ]
+    ss: 'https://cloud.githubusercontent.com/assets/1548478/10266467/685b3d5e-6a9f-11e5-815f-6be7bd3c5abd.png'
+    repo: 'https://github.com/59naga/vpd.berabou.me'
+  }
+
+  {
     title: 'nicolive.berabou.me'
     uri: 'http://nicolive.berabou.me/'
     description: [

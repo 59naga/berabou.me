@@ -1,7 +1,7 @@
 {
   "name": "berabou.me",
   "dependencies": {
-    "difficult-http-server": "0.0.3",
+    "difficult-http-server": "0.0.8",
     "express": "^4.13.3",
     "express-turnout": "0.0.3"
   },

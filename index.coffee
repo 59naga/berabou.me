@@ -61,6 +61,16 @@ products= [
   }
 
   {
+    title: 'nico.berabou.me'
+    uri: 'http://nico.berabou.me/'
+    description: [
+      '「ニコニコ」の横断検索エンジンです。'
+    ]
+    ss: 'https://cloud.githubusercontent.com/assets/1548478/10427617/027974d2-7126-11e5-9871-4c1babbf2019.png'
+    repo: 'https://github.com/59naga/nico.berabou.me'
+  }
+
+  {
     title: 'edgy-comment-viewer'
     uri: 'https://github.com/59naga/edgy-comment-viewer/releases'
     description: [

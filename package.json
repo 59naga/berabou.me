@@ -1,14 +1,16 @@
 {
   "name": "berabou.me",
-  "dependencies": {
-    "difficult-http-server": "0.0.8",
-    "express": "^4.13.3",
-    "express-turnout": "0.0.3"
-  },
   "private": true,
+
   "main": "server.coffee",
   "scripts": {
     "postinstall": "bower install",
     "start": "coffee server.coffee"
+  },
+
+  "dependencies": {
+    "difficult-http-server": "0.0.12-alpha",
+    "express": "^4.13.3",
+    "express-turnout": "0.0.3"
   }
 }

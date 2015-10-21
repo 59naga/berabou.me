@@ -18,7 +18,9 @@ html
     link(href="http://static.edgy.black/pixel_mplus12.css" rel="stylesheet")
     link(href="http://static.edgy.black/misaki_gothic.css" rel="stylesheet")
 
-    script(src="pkgs.js")
+    script(src="/express-turnout.js")
+
+    script(src=process.env.NODE_ENV=='production'? 'pkgs.min.js': 'pkgs.js')
     script(src="index.js")
     link(href="index.css" rel="stylesheet")
 
@@ -54,7 +56,7 @@ html
 
         footer
           a(href="https://twitter.com/horse_n_deer") twitter
-          a(href="https://github.com/59naga/") github
+          a(href="https://github.com/59naga/berabou.me") github
           a(href="#")
             img(alt="59naga" src="https://pbs.twimg.com/profile_images/485123473904132096/PpdblyWm.png")
 

@@ -15,8 +15,10 @@ app.config ($stateProvider)->
   $stateProvider.state 'root',
     url: '/'
     templateUrl: 'rootTemplate'
-    controller: ($scope)->
+    controller: ($scope,$window)->
       $scope.products= products
+
+      $window.expressTurnoutRendered()
 
 products= [
   {
